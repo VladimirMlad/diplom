@@ -1,0 +1,238 @@
+
+a{
+    transition: 0.2s ease-in;
+}
+button{
+    transition: 0.2s ease-in;
+}
+.top{
+    background-color: black;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; /* Выравнивание по центру */
+    display: inline-block; /* Строчно-блочный элемент */
+    vertical-align: top; /* Выравнивание по верхнему краю */
+}
+.logo{
+    display: inline-block;
+}
+.menu{
+    display: inline-block;
+}
+li{
+    margin: 0 0 35px 35px;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.menu a{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu  a:hover{
+    color: rgba(185, 5, 0, 0.87);
+}
+.con-one {
+    padding-top: 100px;
+    height: 650px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/contenr.jpg);
+    background-size: cover;
+    position: relative;
+}
+.con-one:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .5;
+}
+.con-one h1{
+    text-align: center;
+    position: relative;
+    color: rgba(185, 5, 0, 0.87);
+    font-size: 45px;
+    font-weight: bold;
+}
+.con-one p{
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color: #ffffff;
+}
+.btn-new{
+    margin-top: 12%;
+    text-align: center;
+    position: relative;
+}
+.btn-new button{
+    padding: 10px 30px 20px 30px;
+    background-color: rgba(0, 168, 40, 0.87);
+    border-radius: 5px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    border: 0px;
+}
+
+.btn-new button:hover{
+    background-color: #4e555b;
+    text-decoration: none;
+    color: black;
+}
+.service img{
+    height: 300px;
+    width: 350px;
+}
+.service .col-4{
+    text-align: center;
+}
+.service a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.service a:hover{
+    color: rgba(185, 5, 0, 0.87);
+}
+.service .row .col-4{
+    padding: 15px 5px 0 5px;
+    border: white solid 2px;
+}
+.service .row .col-4:hover{
+    transition: 0.2s ease-in;
+    border: rgba(185, 5, 0, 0.87) solid 2px;
+}
+.otstup{
+    margin-top: 50px;
+}
+.service h1{
+    color: rgba(185, 5, 0, 0.87);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.bottom{
+    background-color: black;
+    height: 150px;
+}
+.btn-new button:hover{
+    background-color: #4e555b;
+    text-decoration: none;
+    color: black;
+}
+
+.modal-shadow, .modal-shadow-phone{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:#000;
+    opacity:0.5;
+    display:none;
+}
+.modal-window {
+    margin:0 20% 0 20%;
+    position:absolute;
+    top:25%;
+
+
+    width:60%;
+    height:70%;
+    padding:30px;
+    border-radius:10px;
+    display:none;
+    background:#fff;
+}
+.modal-window-phone{
+    position:absolute;
+    top:25%;
+    margin:0 35% 0 35%;
+    width:30%;
+    height:400px;
+    padding:30px;
+    border-radius:10px;
+    display:none;
+    background:#fff;
+}
+.close, .close-phone{
+    position:absolute;
+    top:5px;
+    right:5px;
+    width:20px;
+    height:20px;
+    border-radius:3px;
+    cursor:pointer;
+    text-align:center;
+    color:#fff;
+    font:normal 14px/20px Arial, Helvetica, sans-serif;
+    background:#555;
+}
+.phone {
+    display: block;
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 99999;
+}
+
+.seti{
+
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.vk, .insta {
+    margin: 4% 0  4% 0;
+    text-align: center;
+    padding:0 0px 0 30px;
+    position: relative;
+    display: inline-block;
+}
+.infa{
+    margin: 3% 0  3% 0;
+}
+.infa a{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+.zvonok{
+    display: block;
+    text-align: center;
+}
+.zvonok p{
+    font-size: 20px;
+}
+.zvonok input{
+    border: 1px solid #cccccc;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+background: #ffffff !important;
+outline: none;
+height: 40px;
+width: 220px;
+color: #000000;
+font-size: 20px;
+font-family: Tahoma;
+    padding-left: 20px;
+}
+.star{
+    color: red;
+}
